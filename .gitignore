@@ -1,0 +1,54 @@
+# Environment variables - NIKDY na GitHub!
+.env
+.env.local
+.env.production
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Database / data
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+backend/data/
+backups/
+
+# Uploads / media
+backend/media/
+backend/uploads/
+*.mp4
+*.webm
+*.mov
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Annotation progress
+progress.json
+*_progress.json
+scripts/progress*.json
+scripts/skipped_videos.txt
+
+# Temp files
+scripts/temp_video*
